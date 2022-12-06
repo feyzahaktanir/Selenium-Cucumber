@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6677960f-913e-4ce8-91f9-82859faff6a3" name="Changes" comment="Selenium Ders 22 - Cucumber">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPages.java" afterDir="false" />
+    <list default="true" id="6677960f-913e-4ce8-91f9-82859faff6a3" name="Changes" comment="Selenium Ders 23 - Cucumber">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1001_amazonsearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1001_amazonsearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1005_PositiveLoginTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1005_PositiveLoginTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC01 - Amazon Search Testi">
+  <component name="RunManager" selected="Cucumber Java.Feature: US1001_amazonsearch">
     <configuration name="Feature: US1001_amazonsearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1001_amazonsearch.feature" />
@@ -83,10 +84,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.CucumberBatch44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC01 - Amazon Search Testi" />
         <item itemvalue="Cucumber Java.Feature: US1001_amazonsearch" />
+        <item itemvalue="JUnit.runner" />
+        <item itemvalue="Cucumber Java.Scenario: TC01 - Amazon Search Testi" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670332831821</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Selenium Ders 23 - Cucumber">
+      <created>1670333701349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670333701349</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium Ders 22 - Cucumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 22 - Cucumber" />
+    <MESSAGE value="Selenium Ders 23 - Cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 23 - Cucumber" />
   </component>
 </project>

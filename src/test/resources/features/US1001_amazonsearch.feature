@@ -1,5 +1,7 @@
 Feature: US1001 - Amazon Search
 
+
+  @tc01
   Scenario: TC01 - Amazon Search Testi
     Given Kullanici Amazon sayfasina gider.
     And Kullanici iPhone icin arama yapar.
