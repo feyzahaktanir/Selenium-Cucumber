@@ -68,5 +68,9 @@ public class AmazonStepDefinitions {
         Driver.quitDriver();
     }
 
+    @Given("Kullanici {string} sayfasina gider.")
+    public void Kullanici_sayfasina_gider(String pageURL){
+        Driver.getDriver().get(ConfigReader.getProperty(pageURL));
+    }
 
 }
