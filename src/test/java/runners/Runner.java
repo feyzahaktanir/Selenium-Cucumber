@@ -1,4 +1,4 @@
-package runner;
+package runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -12,13 +12,13 @@ import org.junit.runner.RunWith;
         //HTML rapor almak icin plugin eklememiz yeterlidir.. runner dan calistirirsak rapor verir
 
         // 1- bu notasyonun gorevi feature dosyalari ile stepdefinition dosyalarini birlestirmek
-        features="src/test/resources/features",
-        glue="stepdefinitions",
+        features="src/test/resources/features", //"fetures folder path"
+        glue="stepdefinitions", //"stepdefinitions folder path"
         // boylece package'lari birbirine bagliyoruz
         // bu iki paket altinda kactane class olursa olsun,
         // herhangi bir class'da yazilan her adim diger class'lardaki adimlarla uyusursa yeni adim olusturmaya gerek kalmaz
 
-        tags="@tc01", // work in progress (@wip)
+        tags="@ParametreliTest", // work in progress (@wip)
         // 2-  @ testNG'degi group gibi calisir
         // eger sadece 1 Feature veya 1 Scenario calistiracaksak, gidip feature dosyasindan calistirabiliriz
         // birden fazla Feature veya Scenario calistirmak istedigimizde
@@ -36,8 +36,9 @@ import org.junit.runner.RunWith;
 
 )
 
-public class runner {
-
+public class Runner {
+    //Runner class'ının body'sine hiçbi rkod yazmıyoruz.
+    //Bu class için önemli olan kullanacağımız iki adet notasyon
 }
 
 //PROJE NOTU :  Testler in hepsi PASS, ancak bazen nadiren de FAIL olabilir, bu siteden kaynaklidir
