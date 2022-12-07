@@ -63,4 +63,10 @@ public class AmazonStepDefinitions {
         Assert.assertTrue(resultTR.contains(searchWord));
     }
 
+    @Then("Kullanici sayfayi kapatir.")
+    public void kullanici_sayfayi_kapatir() {
+        Driver.quitDriver();
+    }
+
+
 }
