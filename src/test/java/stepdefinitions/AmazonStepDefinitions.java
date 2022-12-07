@@ -16,6 +16,8 @@ public class AmazonStepDefinitions {
     public void kullanici_amazon_sayfasina_gider() {
         Driver.getDriver().get(ConfigReader.getProperty("AmazonURL"));
     }
+
+    //Statik veri içerir. -----------------------------------------------------------
     @Given("Kullanici iPhone icin arama yapar.")
     public void kullanici_i_phone_icin_arama_yapar() {
         amazonPages.searchBox.sendKeys("iPhone" + Keys.ENTER);
@@ -45,6 +47,20 @@ public class AmazonStepDefinitions {
         String resultTR = amazonPages.resultText.getText();
 
         Assert.assertTrue(resultTR.contains("flower"));
+    }
+
+
+
+
+    //Dinamik veri içerir -----------------------------------------------------------
+    @Given("Kullanici {string} icin arama yapar.")
+    public void kullanici_icin_arama_yapar(String searchWord) {
+        amazonPages.searchBox.sendKeys(searchWord + Keys.ENTER);
+    }
+    @Then("Kullanici sonuclarin {string} icerdigini test eder.")
+    public void kullanici_sonuclarin_icerdigini_test_eder(String searchWord) {
+        String resultTR = amazonPages.resultText.getText();
+        Assert.assertTrue(resultTR.contains(searchWord));
     }
 
 }
