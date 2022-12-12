@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6677960f-913e-4ce8-91f9-82859faff6a3" name="Changes" comment="Selenium Ders 23 - Cucumber">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_ScenarioOutline.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HMCPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HMCPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1004_ParametreleIleIstenenSayfayaGitme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_ParametreleIleIstenenSayfayaGitme.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,26 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC07 - Parametre ile istenen sayfaya gitme">
-    <configuration name="Feature: US1004_ParametreleIleIstenenSayfayaGitme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1004_ParametreleIleIstenenSayfayaGitme.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="com.CucumberBatch44" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1004_ParametreleIleIstenenSayfayaGitme" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma">
     <configuration name="Feature: US1006_NegativeLoginTesti" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" />
@@ -124,6 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1007_ScenarioOutline.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="com.CucumberBatch44" />
+      <option name="NAME_FILTER" value="^TC12 \- Amazon\'da bir listedeki tüm elementleri aratma$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC12 \- Amazon\'da bir listedeki tüm elementleri aratma$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.CucumberBatch44" />
       <extension name="coverage">
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma" />
+        <item itemvalue="Cucumber Java.Feature: US1006_NegativeLoginTesti" />
         <item itemvalue="Cucumber Java.Scenario: TC07 - Parametre ile istenen sayfaya gitme" />
         <item itemvalue="Cucumber Java.Scenario: TC09 Negative Login" />
-        <item itemvalue="Cucumber Java.Feature: US1006_NegativeLoginTesti" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: US1004_ParametreleIleIstenenSayfayaGitme" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670830522664</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Selenium Ders 23 - Cucumber">
+      <created>1670836004709</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670836004709</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -10,7 +10,6 @@ Feature: US1006 - Negative Login Testi
     Then Kullanici giris yapilmadigini test eder.
     And Kullanici sayfayi kapatir.
 
-
   Scenario: TC10 Dogru Username, yanlis Password ile giris yapilamaz.
     Given Kullanici "hmcURL" sayfasina gider.
     Then Kullanici Login linkine tiklar.
