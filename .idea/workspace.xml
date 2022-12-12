@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6677960f-913e-4ce8-91f9-82859faff6a3" name="Changes" comment="Selenium Ders 23 - Cucumber">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_ScenarioOutline.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HMCStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HMCStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1008_ScenarioOutlineNegativeLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1008_ScenarioOutlineNegativeLogin.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC13 - Farkli username ve password">
     <configuration name="Feature: US1006_NegativeLoginTesti" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" />
@@ -84,15 +85,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC09 Negative Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1007_ScenarioOutline.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch44" />
-      <option name="NAME_FILTER" value="^TC09 Negative Login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC09 Negative Login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC09 Negative Login" />
+      <option name="NAME_FILTER" value="^TC12 \- Amazon\'da bir listedeki tüm elementleri aratma$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC12 \- Amazon\'da bir listedeki tüm elementleri aratma$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -104,15 +105,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC13 - Farkli username ve password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1007_ScenarioOutline.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1008_ScenarioOutlineNegativeLogin.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch44" />
-      <option name="NAME_FILTER" value="^TC12 \- Amazon\'da bir listedeki tüm elementleri aratma$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC12 \- Amazon\'da bir listedeki tüm elementleri aratma$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma" />
+      <option name="NAME_FILTER" value="^TC13 \- Farkli username ve password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC13 \- Farkli username ve password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC13 - Farkli username ve password" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC13 - Farkli username ve password" />
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Scenario: TC12 - Amazon'da bir listedeki tüm elementleri aratma" />
         <item itemvalue="Cucumber Java.Feature: US1006_NegativeLoginTesti" />
         <item itemvalue="Cucumber Java.Scenario: TC07 - Parametre ile istenen sayfaya gitme" />
-        <item itemvalue="Cucumber Java.Scenario: TC09 Negative Login" />
-        <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670836004709</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Selenium Ders 23 - Cucumber">
+      <created>1670845648475</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670845648475</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
