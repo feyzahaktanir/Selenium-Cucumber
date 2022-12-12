@@ -37,4 +37,10 @@ public class HMCStepDefinitions {
 
     }
 
+    @Then("Kullanici giris yapilmadigini test eder.")
+    public void kullanici_giris_yapilmadigini_test_eder() {
+        Assert.assertTrue(hmcPages.hmcNegativeLoginAlert.isDisplayed());
+
+    }
+
 }

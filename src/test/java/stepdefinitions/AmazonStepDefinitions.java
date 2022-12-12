@@ -5,12 +5,14 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import pages.AmazonPages;
+import pages.HMCPages;
 import utilities.ConfigReader;
 import utilities.Driver;
 
 public class AmazonStepDefinitions {
 
     AmazonPages amazonPages = new AmazonPages();
+    HMCPages hmcPages = new HMCPages();
 
     @Given("Kullanici Amazon sayfasina gider.")
     public void kullanici_amazon_sayfasina_gider() {
@@ -71,6 +73,10 @@ public class AmazonStepDefinitions {
     @Given("Kullanici {string} sayfasina gider.")
     public void Kullanici_sayfasina_gider(String pageURL){
         Driver.getDriver().get(ConfigReader.getProperty(pageURL));
+//        if (pageURL.equals("hmcURL")){
+//            hmcPages.baglantiGizliDegil();
+//        }
+        //hmcPages.baglantiGizliDegil();
     }
 
 }

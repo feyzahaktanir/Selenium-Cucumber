@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.ConfigReader;
 import utilities.Driver;
 
+import java.io.IOException;
 import java.util.List;
 
 public class HMCPages {
@@ -42,9 +43,9 @@ public class HMCPages {
     public WebElement hmcGelismisButton;
 
     @FindBy(id = "proceed-link")
-    public WebElement hmcSiteyeİlerle;
+    public WebElement hmcSiteyeIlerle;
 
-    //Pnael Locates
+    //Panel Locates
     @FindBy(xpath = "//span[text()='Hotel Management']")
     public WebElement hmcHotelManagementLink;
 
@@ -95,8 +96,17 @@ public class HMCPages {
     public void baglantiGizliDegil(){
         if (hmcGelismisButton.isDisplayed()){
             hmcGelismisButton.click();
-            hmcSiteyeİlerle.click();
+            hmcSiteyeIlerle.click();
         }
+
+//        try {
+//            hmcGelismisButton.isDisplayed();
+//            hmcGelismisButton.click();
+//            hmcSiteyeIlerle.click();
+//
+//        } catch (Exception ex){
+//            System.out.println(ex);
+//        }
     }
 
     //Panel Users List Locates

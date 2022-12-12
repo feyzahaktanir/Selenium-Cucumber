@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6677960f-913e-4ce8-91f9-82859faff6a3" name="Changes" comment="Selenium Ders 23 - Cucumber">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HMCPages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HMCPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HMCPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/AmazonStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/HMCStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HMCStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1005_PositiveLoginTesti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1005_PositiveLoginTesti.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +48,15 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC08 Positive Login">
-    <configuration name="Feature: US1003_ParametreKullanimi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: US1006_NegativeLoginTesti">
+    <configuration name="Feature: US1004_ParametreleIleIstenenSayfayaGitme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1003_ParametreKullanimi.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1004_ParametreleIleIstenenSayfayaGitme.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch44" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1003_ParametreKullanimi" />
+      <option name="SUGGESTED_NAME" value="Feature: US1004_ParametreleIleIstenenSayfayaGitme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -65,14 +68,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: US1004_ParametreleIleIstenenSayfayaGitme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: US1006_NegativeLoginTesti" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1004_ParametreleIleIstenenSayfayaGitme.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1006_NegativeLoginTesti.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch44" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1004_ParametreleIleIstenenSayfayaGitme" />
+      <option name="SUGGESTED_NAME" value="Feature: US1006_NegativeLoginTesti" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -104,15 +107,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC08 Positive Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC07 - Parametre ile istenen sayfaya gitme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1005_PositiveLoginTesti.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1004_ParametreleIleIstenenSayfayaGitme.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.CucumberBatch44" />
-      <option name="NAME_FILTER" value="^TC08 Positive Login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC08 Positive Login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC08 Positive Login" />
+      <option name="NAME_FILTER" value="^TC07 \- Parametre ile istenen sayfaya gitme$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC07 \- Parametre ile istenen sayfaya gitme$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC07 - Parametre ile istenen sayfaya gitme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC08 Positive Login" />
+        <item itemvalue="Cucumber Java.Feature: US1006_NegativeLoginTesti" />
+        <item itemvalue="Cucumber Java.Scenario: TC07 - Parametre ile istenen sayfaya gitme" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: US1004_ParametreleIleIstenenSayfayaGitme" />
         <item itemvalue="Cucumber Java.Scenario: TC05 - Parametre Kullanimi" />
-        <item itemvalue="Cucumber Java.Feature: US1003_ParametreKullanimi" />
       </list>
     </recent_temporary>
   </component>
