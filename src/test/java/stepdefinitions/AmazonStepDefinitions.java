@@ -73,10 +73,7 @@ public class AmazonStepDefinitions {
     @Given("Kullanici {string} sayfasina gider.")
     public void Kullanici_sayfasina_gider(String pageURL){
         Driver.getDriver().get(ConfigReader.getProperty(pageURL));
-//        if (pageURL.equals("hmcURL")){
-//            hmcPages.baglantiGizliDegil();
-//        }
-        //hmcPages.baglantiGizliDegil();
+        hmcPages.baglantiGizliDegil();
     }
 
 }

@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -94,19 +95,17 @@ public class HMCPages {
     }
 
     public void baglantiGizliDegil(){
-        if (hmcGelismisButton.isDisplayed()){
-            hmcGelismisButton.click();
-            hmcSiteyeIlerle.click();
-        }
+        try {
+            if(hmcGelismisButton.isDisplayed()){
+                hmcGelismisButton.click();
+                hmcSiteyeIlerle.click();
+            }
 
-//        try {
-//            hmcGelismisButton.isDisplayed();
-//            hmcGelismisButton.click();
-//            hmcSiteyeIlerle.click();
-//
-//        } catch (Exception ex){
-//            System.out.println(ex);
-//        }
+        } catch (NoSuchElementException ex){
+            if ( !(ex instanceof NoSuchElementException) ) {
+                throw ex;
+            }
+        }
     }
 
     //Panel Users List Locates

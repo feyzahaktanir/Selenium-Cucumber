@@ -8,4 +8,4 @@ Feature: US1004 - Parametre ile istenen sayfaya gitme
 
   Scenario: TC07 - Parametre ile istenen sayfaya gitme
     Given Kullanici "BestBuyURL" sayfasina gider.
-    And Kullanici sayfayi kapatir.
+    Then Kullanici sayfayi kapatir.
