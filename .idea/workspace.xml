@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6677960f-913e-4ce8-91f9-82859faff6a3" name="Changes" comment="Selenium Ders 23 - Cucumber">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EditorDataPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EditorDataPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/EditorDataStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/EditorDataStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1009_ScenarioOuline_EditorKayit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1009_ScenarioOuline_EditorKayit.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670920263375</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Selenium Ders 23 - Cucumber">
+      <created>1670928906041</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670928906042</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

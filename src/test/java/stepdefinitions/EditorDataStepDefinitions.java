@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import pages.AmazonPages;
 import pages.EditorDataPages;
 import pages.HMCPages;
@@ -46,7 +47,7 @@ public class EditorDataStepDefinitions {
 
     @And("start olarak {string} yazar.")
     public void startOlarakYazar(String start) {
-        editorDataPages.start.sendKeys(start);
+        editorDataPages.start.sendKeys(start + Keys.ENTER);
     }
 
     @And("salary olarak {string} yazar.")
@@ -68,5 +69,15 @@ public class EditorDataStepDefinitions {
     public void isimBolumundeOldugunuDogrular(String firstname) {
         String rslt = editorDataPages.result.getText();
         Assert.assertTrue(rslt.contains(firstname));
+    }
+
+    @And("{int} saniye bekler.")
+    public void saniyeBekler(int time) {
+        //hmcPages.wait(time);
+        try {
+            Thread.sleep(time*1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

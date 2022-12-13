@@ -14,6 +14,7 @@ Feature: US1009 - Scenario Outline ile EditorKayit Testi
     And Create tusuna basar.
     When Kullanici "<firstname>" ile arama yapar.
     Then isim bolumunde "<firstname>" oldugunu dogrular.
+    And Kullanici sayfayi kapatir.
 
     Examples:
     |firstname|lastname|position|office|extension|start|salary|
