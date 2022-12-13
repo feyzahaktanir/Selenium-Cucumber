@@ -30,4 +30,10 @@ public class EditorDataPages {
 
     @FindBy (className = "btn")
     public WebElement createButton;
+
+    @FindBy (xpath = "//input[@type='search']")
+    public WebElement searchBox;
+
+    @FindBy (css = "[class=\"sorting_1\"]")
+    public WebElement result;
 }
