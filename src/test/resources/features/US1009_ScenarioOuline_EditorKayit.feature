@@ -16,3 +16,5 @@ Feature: US1009 - Scenario Outline ile EditorKayit Testi
     Then isim bolumunde "<firstname>" oldugunu dogrular.
 
     Examples:
+    |firstname|lastname|position|office|extension|start|salary|
+    |feyza   |kuru   |tester  |hollanda|tester |2022-02-05|200|

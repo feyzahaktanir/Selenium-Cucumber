@@ -3,14 +3,16 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.w3c.dom.html.HTMLInputElement;
 import utilities.Driver;
 
 public class EditorDataPages {
+
     public EditorDataPages(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy (className = "dt-button buttons-create")
+    @FindBy (xpath = "//button[@class='dt-button buttons-create']")
     public WebElement newButton;
 
     @FindBy (id = "DTE_Field_first_name")
